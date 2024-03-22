@@ -1,13 +1,9 @@
 package com.tehnikus.tehnicki_pregled.dto;
 
-import lombok.Data;
+public record BrandDto(
+        Long id,
+        String name,
+        String type
+) {
 
-@Data
-public class BrandDto {
-
-    private Long id;
-
-    private String name;
-
-    private String type;
 }
